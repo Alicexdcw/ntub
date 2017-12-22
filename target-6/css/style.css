@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+body{
+  font-family: "微軟正黑體";
+}
+.container-fluid{
+  background: url(../images/head_bg.gif) #ffffff  repeat-x left top ;
+
+}
+
+.header {
+  background: url(../images/head_bg.gif);
+  width: 100%;
+}
+
+.welword {
+  top: 5px;
+  font-size: 13px;
+  color: #979795;
+}
+.welcome {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.topnav {
+  top:5%;
+  position: relative;
+  float: right;
+  color: #ffffff;
+  font-size: 12px;
+  display: inline;
+}
+
+.logo{
+  padding: 16px 0px;
+}
+
+.topnav ul li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 10px;
+  background: url(../images/topnav_line.gif) no-repeat right;
+}
+
+.actimg img {
+  width: 100%;
+}
+
+.quotes{
+  line-height: 30px;
+  color: #000000;
+  margin: 10px;
+  
+  background:rgba(255,255,255,0);
+}
+
+.input {
+  background: url(../images/search_input.gif) no-repeat;
+  border: 0 none;
+  height: 23px;
+  color: #979795;
+  padding-left: 20px;
+}
+
+.submit {
+  background: url(../images/search_btn.gif) no-repeat;
+  border: 0 none;
+  height: 23px;
+  right: 0px;
+}
+
+footer {
+  background-color: #67057c;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 3px;
+  text-align: center;
+}
+
+.language {
+  color: #ffffff;
+  font-size: 12px;
+  float: left;
+  position: relative;
+  margin: 20px 0px 0px;
+
+}
+
+.language ul li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 20px;
+
+}
+
+.tawian {
+  background-image: url(../images/chinese.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.facebook {
+  background-image: url(../images/fb_icon.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.search {
+  position: relative;
+  left: 0px;
+  margin: 20px 0px 10px 30px;
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .minnav ul li {
+    display: inline;
+    margin: 5px;
+  }
+}
+.minnav {
+  position: relative;
+  display: inline;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+  float: left;
+  text-align: justify;
+}
+
+.minnav ul li {
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+}
+
+.minnav a{
+  color:#FFFFFF;
+
+}
+
+.minnav a:hover{
+  color: #FFFFFF;
+  cursor:pointer;
+}
+.navbarl{
+  background: #ebe8e8;
+  color:#ffffff;
+}
+
+.navbarl>li>a{
+  color:#ffffff;
+}
+
+
+
+.navbar-default .navbar-nav>li>a .navbarl>li>a{
+  color:#ffffff;
+}
