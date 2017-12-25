@@ -97,15 +97,13 @@ footer {
 }
 
 .tawian {
-  background-image: url(../images/chinese.png);
-  background-repeat: no-repeat;
-  background-position: left;
+  background: url(../images/chinese.png) no-repeat left;
+
 }
 
 .facebook {
-  background-image: url(../images/fb_icon.png);
-  background-repeat: no-repeat;
-  background-position: left;
+  background: url(../images/fb_icon.png) no-repeat left;
+
 }
 
 .search {
@@ -159,4 +157,8 @@ footer {
 
 .navbar-default .navbar-nav>li>a .navbarl>li>a{
   color:#ffffff;
+}
+
+.carousel-inner>.item>img{
+  width: 120%;
 }
