@@ -1,0 +1,120 @@
+body {
+  font-family: "微軟正黑體";
+}
+
+.header {
+  background: #ffe5b0;
+  color: #423b2a;
+}
+
+.main {
+  padding-bottom: 100px;
+}
+
+.title {
+  float: left;
+}
+
+.system {
+  color: #ffffff;
+  border-radius: 5px;
+  width: 135px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #998356;
+}
+.system a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h4 {
+  line-height: 40px;
+}
+
+.logout {
+  float: right;
+  padding: 2px;
+}
+
+.name {
+  float: left;
+  margin: 5px;
+}
+
+.out {
+  float: right;
+  margin: 5px;
+  width: 50px;
+}
+
+.out > a> img {
+  width: 50%;
+}
+
+.route {
+  background: #f5f5e6;
+  padding: 20px;
+}
+
+.search {
+  background: #998356;
+  color: #ffffff;
+  border: 0px;
+  width: 80px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+tr:nth-child(even) {
+  background: #9ddcf6;
+}
+tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+tr {
+  vertical-align: middle;
+}
+
+.input {
+  background: #fffff5;
+  border: #9e9e98 1px solid;
+}
+
+footer {
+  text-align: center;
+  bottom: 0px;
+  background: #5c196b;
+  color: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  /*margin-top: -100px;*/
+  font-size: 12px;
+}
+
+.table {
+  width: 95%;
+  margin:0px 0px 10px  0px;
+}
+
+.score {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.page {
+  text-align: right;
+  margin:0px 0px 10px  0px;
+}
+
+.page > span {
+  color: rgb(255, 0, 0);
+}
+
+.totalCredit{
+    float: right;
+    margin: 10px;
+}
